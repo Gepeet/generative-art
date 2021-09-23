@@ -14,7 +14,7 @@ function createDiv(){
         divItem.id = "newdiv" + i; 
         // divItem.style.borderRadius = Math.floor(Math.random() * 100 + 1) +"px";
         divItem.style.flex = Math.floor(Math.random() * 300 + 1) +"px";
-        divItem.style.height = 300 + "px";
+        divItem.style.height = 200 + "px";
         divItem.style.border = "solid", 1+ "px", "black";
         divItem.style.background = "#" + Math.floor(Math.random()*16777215).toString(16);
         container.appendChild(divItem)
