@@ -39,3 +39,11 @@ changeBoxFlex = () =>{
 
 changeBoxFlex()
 changeBoxGrid()
+
+flex_btn = () =>{
+    changeBoxFlex();
+}
+
+grid_btn = () => {
+    changeBoxGrid();
+}

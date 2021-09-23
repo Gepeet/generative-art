@@ -12,18 +12,32 @@
     
 </head>
 <body>
-    <h1>Generative Art</h1>
-    <button onclick="generate()">GENERATE</button>
+    <div class="intro">
+        <h1>Generative Art</h1>
+        <br>
+        <h3>Code based art creation.</h3>
+        <ul>Technologies
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Vanilla JS</li>
+        </ul>
+        <br>
+        <button onclick="generate()">GENERATE ALL</button>
+
+    </div>
+    
     <div class="arts">
 
         <div class="category">
-            <h2>Boxes using JS-DOM</h2>
+            <h2>Colors using JS-DOM</h2>
+            <button onclick="jsflex_btn()">GENERATE</button>
             <div id="container__jsflex" class="container__jsflex"></div>
             
         </div>
 
         <div class="category">
             <h2>Boxes using CSS-Flex</h2>
+            <button onclick="flex_btn()">GENERATE</button>
             <div id="container__flex" class="container__flex">
                 <div id="box" class="box"></div>
                 <div id="box2" class="box"></div>
@@ -36,6 +50,7 @@
 
         <div class="category">
             <h2>Boxes using CSS-Grid</h2>
+            <button onclick="grid_btn()">GENERATE</button>
             <div id="container__grid" class="container__grid">
                 <div id="grid" class="grid"></div>
                 <div id="grid2" class="grid"></div>
