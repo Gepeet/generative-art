@@ -7,7 +7,7 @@
 
 function createDiv(){
 
-    for(let i = 0 ; i < 20 ; i++){
+    for(let i = 0 ; i < 100 ; i++){
         const container = document.querySelector("#container__jsflex");
 
         const divItem = document.createElement("DIV");
@@ -24,7 +24,7 @@ function createDiv(){
 regenDiv = () =>{
 
 
-    for(let i = 0 ; i < 20 ; i++){
+    for(let i = 0 ; i < 100 ; i++){
 
         let itemID = "newdiv" + i; 
 
@@ -37,6 +37,8 @@ regenDiv = () =>{
 jsflex_btn = () =>{
     regenDiv();
 }
+
+// setInterval(regenDiv,100);
 
 createDiv();
 
