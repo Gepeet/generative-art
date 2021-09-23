@@ -23,6 +23,10 @@ changeBoxGrid = () =>{
     }
 }
 
+generate = () =>{
+    location.reload();
+}
+
 
 changeBoxFlex = () =>{
     const allBox = [box,box2,box3,box4,box5,box6];

@@ -21,6 +21,7 @@ body {
 }
 
 .arts{
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -29,6 +30,7 @@ body {
 }
 
 .container__flex {
+    box-shadow: -7px 7px 30px 0px rgba(128, 128, 128, 0.603);
     border: black solid 10px;
     width: 100%;
     height: 100%;
@@ -51,12 +53,13 @@ body {
 #box,#box2,#box3,#box4,#box5,#box6 {
     border: black 4px solid;
     background-color: gray;
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
     height: var(--width-box);
     width: var(--width-box);
 }
 
 .container__grid{
+    box-shadow: -7px 7px 30px 0px rgba(128, 128, 128, 0.603);
     border: black solid 10px;
     width: 100%;
     height: 100%;
@@ -75,4 +78,18 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
     grid-auto-rows: 40px;
     
+}
+
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(31, 30, 30);
 }
