@@ -12,6 +12,7 @@
     
 </head>
 <body>
+    <div id="shadow" class="shadow"></div>
     <div class="intro">
         <h1>Generative Art</h1>
         <br>
@@ -29,29 +30,41 @@
     <div class="arts">
 
         <div class="category">
-            <h2>Random Colors and rectangles</h2>
-            <button onclick="jsflex_btn()">GENERATE</button>
+            <div class="desc">
+                <h2>Random Colors and rectangles</h2>
+                <button onclick="jsflex_btn()">GENERATE</button>
+            </div>
+            
             <div id="container__jsflex" class="container__jsflex"></div>
             
         </div>
 
         <div class="category">
-            <h2>1,000 Random Shapes</h2>
-            <button onclick="shapes_btn()">GENERATE</button>
+            <div class="desc">
+                <h2>1,000 Random Shapes</h2>
+                <button onclick="shapes_btn()">GENERATE</button>
+            </div>
+            
             <div id="container__shapes" class="container__shapes"></div>
             
         </div>
 
         <div class="category">
-            <h2>Tria-angulo</h2>
-            <button onclick="triangles_btn()">GENERATE</button>
+            <div class="desc">
+                <h2>Tria-angulo</h2>
+                <button onclick="triangles_btn()">GENERATE</button>
+            </div>
+            
             <div id="container__triangle" class="container__triangle"></div>
             
         </div>
 
         <div class="category">
-            <h2>1st art CSS-Flex</h2>
-            <button onclick="flex_btn()">GENERATE</button>
+            <div class="desc">
+                <h2>1st art CSS-Flex</h2>
+                <button onclick="flex_btn()">GENERATE</button>
+            </div>
+            
             <div id="container__flex" class="container__flex">
                 <div id="box" class="box"></div>
                 <div id="box2" class="box"></div>
@@ -63,8 +76,11 @@
         </div>
 
         <div class="category">
-            <h2>2nd art CSS-Grid</h2>
-            <button onclick="grid_btn()">GENERATE</button>
+            <div class="desc">
+                <h2>2nd art CSS-Grid</h2>
+                <button onclick="grid_btn()">GENERATE</button>
+            </div>
+            
             <div id="container__grid" class="container__grid">
                 <div id="grid" class="grid"></div>
                 <div id="grid2" class="grid"></div>
@@ -84,5 +100,6 @@
     <script src="container.js"></script>
     <script src="shapes.js"></script>
     <script src="triangles.js"></script>
+    <script src="shadow.js"></script>
 </body>
 </html>
