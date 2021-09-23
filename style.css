@@ -49,6 +49,13 @@ body {
     padding: 40px 50px;
     background: rgba(245, 222, 179, 0.322);
 }
+@media screen and (max-width:700px) {
+    .intro{
+        align-self: center;
+        width: 100%;
+        /* align-items: center; */
+    }
+}
 
 .intro > ul{
     margin: 10px 20px;
@@ -90,10 +97,20 @@ body {
     border-bottom: 10px solid rgba(0, 0, 0, 0.377);
 }
 
+.desc >h2{
+    font-size: 50px;
+}
+@media screen and (max-width:700px) {
+    .desc >h2{
+        font-size: 30px;
+    }
+}
+
 .desc{
     width: auto;
     justify-content: space-between;
     display: flex;
+    align-items: center;
 }
 #box,#box2,#box3,#box4,#box5,#box6 {
     border: black 4px solid;
