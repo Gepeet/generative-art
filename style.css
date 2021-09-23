@@ -52,8 +52,9 @@ body {
 }
 
 .container__flex {
+    max-height: 70vh;
     box-shadow: -7px 7px 30px 0px rgba(128, 128, 128, 0.603);
-    border: black solid 15px;
+    border: black solid 10px;
     width: 100%;
     height: 100%;
     background-color: white;
@@ -84,7 +85,7 @@ body {
 
 .container__grid{
     box-shadow: -7px 7px 30px 0px rgba(128, 128, 128, 0.603);
-    border: black solid 15px;
+    border: black solid 10px;
     width: 100%;
     height: 100%;
     background-color: white;
@@ -94,6 +95,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
+    max-height: 70vh;
 }
 
 .grid{
@@ -105,22 +107,28 @@ body {
 }
 
 button{
-    padding: 10px 30px;
+    padding: 7px 20px;
     border: none;
     border-radius: 5px;
     background-color: black;
     color: white;
     font-weight: 600;
+    border: 3px rgba(128, 128, 128, 0) inset;
 }
 
 button:hover{
     cursor: pointer;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(39, 38, 38);
+}
+
+button:active{
+    background-color: black;
+    border: 3px rgb(255, 255, 255) inset;
 }
 
 .container__jsflex{
     box-shadow: -7px 7px 30px 0px rgba(128, 128, 128, 0.603);
-    border: black solid 15px;
+    border: black solid 10px;
     width: 100%;
     height: max-content;
     background-color: white;
@@ -132,6 +140,7 @@ button:hover{
     /* justify-content: center; */
     flex-wrap: wrap;
     overflow: hidden;
+    max-height: 70vh;
 }
 
 footer{
