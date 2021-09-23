@@ -3,7 +3,7 @@ const container = document.querySelector("#container__shapes");
 
 createShapes = ()=>{
 
-    for (id = 0 ; id < 100 ; id++){
+    for (id = 0 ; id < 1000 ; id++){
         const newDiv = document.createElement("DIV");
     
         newDiv.id = "newshape" + id;
@@ -20,7 +20,7 @@ createShapes = ()=>{
 }
 
 regenShapes = () =>{
-    for (id = 0 ; id < 100 ; id++){
+    for (id = 0 ; id < 1000 ; id++){
         let idd = "newshape"+id;
 
         const newDiv = document.getElementById(idd)
