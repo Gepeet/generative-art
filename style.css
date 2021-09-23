@@ -155,6 +155,37 @@ button:active{
     border: black solid 10px;
 }
 
+#container__triangle{
+    margin-top: 20px;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background: white;
+    border: black solid 10px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    /* align-content: center;
+    align-items: center; */
+    /* padding-right: -200px; */
+    /* padding:0 20px; */
+}
+
+.triangle-bottomright{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid red;
+    border-right: 50px solid transparent;
+}
+
+.triangle-bottomleft{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid red;
+    border-left: 50px solid transparent;
+    
+}
+
 footer{
     text-align: center;
 }
