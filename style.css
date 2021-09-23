@@ -1,0 +1,41 @@
+:root {
+    --width-box : 100px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+.container {
+    border: black solid 10px;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#box,#box2,#box3,#box4,#box5,#box6 {
+    border: black 4px solid;
+    background-color: gray;
+    margin: 10px 10px;
+    height: var(--width-box);
+    width: var(--width-box);
+}
